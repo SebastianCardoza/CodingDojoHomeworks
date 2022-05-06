@@ -1,0 +1,24 @@
+.row{
+    display: flex;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.col{
+    flex:1;
+    background-color: rgb(96, 118, 242);
+    margin: 10px;
+    padding: 10px 0px;
+}
+.col-2{
+    flex:2;
+    background-color: rgb(96, 118, 242);
+    margin: 10px;
+    padding: 10px 0px;
+}
+.col-3{
+    flex:3;
+    background-color: rgb(96, 118, 242);
+    margin: 10px;
+    padding: 10px 0px;
+}
