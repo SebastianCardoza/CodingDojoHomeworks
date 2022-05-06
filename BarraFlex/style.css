@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(66, 65, 65);
+    border-radius: 5px;
+}
+
+h1{
+    margin: 10px;
+    color: white;
+    font-weight: bolder;
+}
+button{
+    padding: 2px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: rgb(97, 207, 207);
+    color: white;
+    box-shadow: 2px 4px black;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+a{
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+li{
+    margin: 10px;
+}
