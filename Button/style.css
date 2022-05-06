@@ -1,0 +1,29 @@
+
+#b1 {
+    background-color: white;
+    border-color:  rgb(53, 112, 205);
+    color: rgb(53, 112, 205);
+    border-radius: 5cm;
+    border-width: 2px;
+    width: 150px;
+    border-style: solid;
+    font-weight: bold;
+}
+
+#b2{
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: aqua;
+    margin: 10px;
+    font-size: large;
+}
+#b3{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: dodgerblue;
+    border-color: black;
+    box-shadow: 2px 4px black;    
+    font-size: medium;
+    width: 200px;
+}
