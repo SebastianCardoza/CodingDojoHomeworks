@@ -1,0 +1,23 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+span{
+    color: aqua;
+}
+h2{
+    background-color: rebeccapurple;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-weight: normal;
+}
+h3{
+    color: rebeccapurple;
+    background-color: aquamarine;
+    text-align: right;
+    text-decoration: underline;
+}
