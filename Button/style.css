@@ -8,6 +8,7 @@
     width: 150px;
     border-style: solid;
     font-weight: bold;
+    display: block;
 }
 
 #b2{
@@ -17,6 +18,7 @@
     background-color: aqua;
     margin: 10px;
     font-size: large;
+    display: block;
 }
 #b3{
     font-family: 'Trebuchet MS', sans-serif;
