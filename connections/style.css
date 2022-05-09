@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar{
+    background-color: black;
+    padding: 10px 200px ;
+    display: flex;
+}
+.container{
+    display: flex;
+    padding: 15px 200px;
+}
+.col-2{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.col-1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.top1{
+    background-color: rgb(76, 75, 75);
+    border-radius: 3px;
+    margin-top: 25px;
+    vertical-align: center;
+    padding: 15px 20px;
+    color: white;
+}
+.description1{
+    border: 3px solid grey;
+    border-top: 0px;
+    padding: 10px 20px;
+}
+.description1 .dd{
+    color: grey;
+    margin: 10px 0px;
+}
+#header{
+    margin-top: 0px;
+}
+.top1 span{
+    background-color: rgb(210, 206, 206);
+    border-radius: 50%;
+    padding: 3px 9px ;
+    vertical-align: center;
+    color: black;
+    margin-right: 5px;
+}
+.top{
+    background-color: rgb(52, 179, 179);
+    height: 85px;
+    border-radius: 3px;
+}
+.profile{
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding:2px;
+    background-color: white;
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+.description{
+    border: 3px solid grey;
+    border-top: 0px;
+    /* height: 200px; */
+    padding: 40px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.description p{
+    margin: 10px 0px;
+}
+.description h2{
+    margin-bottom: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+#request1{
+    margin-top: 15px;
+}
+.flex1{
+    margin-top: 15px;
+}
+.pfp{
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.pfp + p{
+    /* width: 120px; */
+    flex:2;
+    font-weight: bold;
+}
+.flexend{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo1{
+    height: 35px;
+    margin-right: 5px;
+}
+.logo{
+    height: 15px;
+    margin-right: 10px;
+}
+.a1{
+    display: flex;
+    align-items: center;
+    flex: 2;
+    color: white;
+}
+.a1 p{
+    margin-left: 20px;
+}
+.a2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+.a2 button{
+    background-color: rgb(2, 148, 148);
+    border: 0px;
+    color: white;
+    padding: 5px;
+}
+
+.shadow{
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    border-radius: 50%;
+}
