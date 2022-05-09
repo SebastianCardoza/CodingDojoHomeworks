@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Dojonary</h1>
+        <input type="text" name="search" id="search" placeholder="Search">
+        <div class="col-1-end">
+            <button id="login" onclick="logout(this)">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <!-- First Column -->
+        <div class="col-2" id="mright">
+            <div class="word">
+                <div id="word-col">
+                    <h1>ninja</h1>
+                    <p><i>noun</i></p>
+                    <p class="plural">Plural: <i>ninjas</i></p>
+                    <button id="likes">13 likes</button>
+                </div>
+                <div class="col-2" id="col-2-word">
+                    <p class="description">A practictioner skilled in the <a href="">Japanese</a> art of the <a href="">Ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="word">
+                <div id="word-col">
+                    <h1>ninja</h1>
+                    <p><i>noun</i></p>
+                    <p class="plural">Plural: <i>ninjas</i></p>
+                    <button id="likes">37 likes</button>
+                </div>
+                <div class="col-2" id="col-2-word">
+                    <p class="description">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <!-- Second column -->
+        <div class="col-1">
+            <div class="definition">
+                <p>Dojonary is defined by <b>YOU</b></p>
+                <button id="addDefinition" onclick="byebye(this)">Add Definition</button>   
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
