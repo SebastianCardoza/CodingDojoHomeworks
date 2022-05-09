@@ -1,0 +1,57 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+width: 1200px;
+margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.col{
+    flex:1;
+    background-color: rgb(96, 118, 242);
+    margin: 10px;
+    padding: 10px 0px;
+}
+.col-2{
+    flex:2;
+    background-color: rgb(96, 118, 242);
+    margin: 10px;
+    padding: 10px 0px;
+}
+.col-3{
+    flex:3;
+    background-color: rgb(96, 118, 242);
+    margin: 10px;
+    padding: 10px 0px;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 15px;
+    margin-right: 10px;
+}
+.profile{
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding:2px;
+    background-color: white;
+}
