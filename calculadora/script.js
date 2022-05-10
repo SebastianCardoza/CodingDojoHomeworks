@@ -67,7 +67,6 @@ function clr(){
 }
 
 var buttonTag = document.querySelectorAll("button");
-buttonTag.style.color = "red"
 
 for (var i=0; i < buttonTag.length; i++){
     buttonTag[i].addEventListener("mouseover", point(buttonTag[i]));
