@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+div.row{
+    display: flex;
+}
+div.row div{
+    width: 20px;
+    height: 20px;
+}
+div.brick{
+    background-color: blue;
+}
+div.cherry{
+    background-image: url("cherry.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.coin{
+    background-image: url("coin.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div#pacman{
+    background-image: url("pacman.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+div#ghost{
+    background-image: url("ghost.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+div#score{
+    border: 1px solid white;
+    height: 30px;
+    color: white;
+    text-align: center; 
+    vertical-align: center;
+    padding: 10px;
+    font-size: large;
+    position: absolute;
+    left: 430px;
+    top: 10px;
+}
